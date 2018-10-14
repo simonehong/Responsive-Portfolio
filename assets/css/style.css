@@ -215,3 +215,37 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+ 
+  @media screen and(max-width: 980px), (max-width: 780px), (max-width: 640px) {
+  .center  {
+    float: none;
+    width: 91%;
+    position: relative;
+    
+  }
+}
+@media screen and (max-width: 980px), (max-width: 780px), (max-width: 640px) {
+  .topNav a {
+      float: none;
+      width: 20%;
+      position: relative;
+      padding-right: 30px;
+      }
+
+}
+
+@media screen and (max-width: 980px), (max-width: 769px), (max-width: 640px) {
+  .column {
+    width: 100%;
+    font-size: 50px;
+    padding: 50px;
+  }
+}
+
+@media screen and (max-width: 980px), (max-width: 769px), (max-width: 640px) {
+.portfolioimg {
+  width: 100%;
+  padding: 0px
+  }
+}
